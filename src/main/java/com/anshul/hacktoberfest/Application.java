@@ -21,4 +21,9 @@ public class Application {
     public String cars() {
         return "Cars!";
     }
+
+    @GetMapping("/greeting")
+    public String greeting() {
+        return "Greeting";
+    }
 }
