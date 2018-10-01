@@ -16,4 +16,9 @@ public class Application {
     public String home() {
         return "Hello World";
     }
+
+    @GetMapping("/cars")
+    public String cars() {
+        return "Cars!";
+    }
 }
